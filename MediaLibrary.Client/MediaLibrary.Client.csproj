@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="MediaLibrary.DAL">
+      <HintPath>..\MediaLibrary.DAL\bin\Debug\netcoreapp3.1\MediaLibrary.DAL.dll</HintPath>
+    </Reference>
+    <Reference Include="MediaLibrary.ViewModel">
+      <HintPath>..\MediaLibrary.ViewModel\bin\Debug\netcoreapp3.1\MediaLibrary.ViewModel.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
