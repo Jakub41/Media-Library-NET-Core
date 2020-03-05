@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Text;
 
 namespace MediaLibrary.DAL
 {
@@ -22,7 +23,7 @@ namespace MediaLibrary.DAL
         {
             string databasePath = "Media_Library_Database.csv";
             // Read file contents (as an entire string)
-            _ = LoadDatabaseFromDisk(databasePath);
+            string fileContent = LoadDatabaseFromDisk(databasePath);
             int i = 0;
 
             using (StreamReader sr = new StreamReader(databasePath))
